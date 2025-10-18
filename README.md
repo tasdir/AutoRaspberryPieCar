@@ -156,7 +156,7 @@ python3 neural_drive.py --model lane_model.h5 --video vid1.mp4 --no-gpio
 python3 neural_drive.py --model lane_model.h5 --camera --speed 50
 ```
 
-## ⚙️ Configuration
+## Configguration
 
 Edit `config.py` to customize:
 
@@ -211,7 +211,7 @@ If your car drifts to one side, you may need to:
 2. Adjust individual motor speeds in `motor_control.py`
 3. Calibrate wheel alignment
 
-## 📊 Performance Tips
+## Performance Tricks
 
 ### For Better Lane Detection:
 - Ensure good lighting conditions
@@ -220,7 +220,7 @@ If your car drifts to one side, you may need to:
 - Adjust HSV thresholds for your environment
 
 ### For Neural Network Training:
-- Collect diverse training data (various lighting, curves)
+- Collect diverse training data (various lighting, curves) - Here I only used small dataset, which might not be good for in real world implications.
 - Use data augmentation (flip images for left/right balance)
 - Train for more epochs if underfitting
 - Reduce learning rate if training is unstable
