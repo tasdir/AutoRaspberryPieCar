@@ -2,7 +2,7 @@
 
 A complete autonomous driving system for Raspberry Pi using computer vision and optional deep learning for lane detection and navigation.
 
-## 🚗 Features
+##  Features
 
 - **Lane Detection**: Computer vision-based lane detection using OpenCV
 - **Motor Control**: Full motor control system for Raspberry Pi GPIO
@@ -12,7 +12,7 @@ A complete autonomous driving system for Raspberry Pi using computer vision and 
 - **Flexible Configuration**: Easy-to-modify configuration file
 - **Simulation Mode**: Test without Raspberry Pi hardware
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AutoRaspberryCar/
@@ -29,7 +29,7 @@ AutoRaspberryCar/
 └── README.md                    # This file
 ```
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 ### Raspberry Pi Setup
 - Raspberry Pi 3/4 (recommended)
@@ -53,7 +53,7 @@ GND                → GND
 
 **Note**: Pin configuration can be changed in `config.py`
 
-## 💻 Installation
+## Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -91,7 +91,7 @@ python3 motor_control.py  # Test motor control (simulation mode)
 python3 config.py          # View configuration
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Method 1: Computer Vision-Based (No Training Required)
 
@@ -178,7 +178,7 @@ MOTOR_PINS = {
 }
 ```
 
-## 🎯 Calibration
+## Calibration
 
 ### 1. Adjust Perspective Transform
 
@@ -231,7 +231,7 @@ If your car drifts to one side, you may need to:
 - Close unnecessary applications
 - Consider using TensorFlow Lite for faster inference
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Camera Issues
 ```bash
@@ -265,7 +265,7 @@ pip3 install tensorflow-aarch64  # For 64-bit Pi OS
 3. Test with `motor_control.py` in simulation mode first
 4. Check motor driver enable pins
 
-## 📈 Example Workflow
+## Example Workflow
 
 ### Complete Pipeline:
 
@@ -308,9 +308,9 @@ pip3 install tensorflow-aarch64  # For 64-bit Pi OS
    python3 autonomous_drive.py --camera
    ```
 
-## 🛡️ Safety Considerations
+##  Safety Considerations
 
-⚠️ **IMPORTANT SAFETY NOTES:**
+ **IMPORTANT SAFETY NOTES:**
 
 1. **Always test in a safe, controlled environment**
 2. **Start with low speeds and gradually increase**
@@ -321,7 +321,7 @@ pip3 install tensorflow-aarch64  # For 64-bit Pi OS
 7. **Use fuses to protect electronics**
 8. **Be ready to manually take control**
 
-## 🔬 Advanced Features
+##  Advanced Features
 
 ### Data Augmentation
 Modify `neural_network_trainer.py` to add:
@@ -339,52 +339,6 @@ Add ultrasonic sensors or LIDAR for obstacle avoidance.
 ### PID Control
 Implement PID controller for smoother steering in `motor_control.py`.
 
-## 📚 Learning Resources
 
-- **OpenCV**: https://docs.opencv.org/
-- **TensorFlow**: https://www.tensorflow.org/
-- **Raspberry Pi GPIO**: https://www.raspberrypi.org/documentation/
-- **Autonomous Driving**: End-to-End Learning for Self-Driving Cars (NVIDIA paper)
 
-## 🤝 Contributing
-
-Feel free to contribute by:
-- Reporting bugs
-- Suggesting features
-- Improving documentation
-- Adding new capabilities
-
-## 📄 License
-
-This project is open-source and available for educational purposes.
-
-## 🙏 Acknowledgments
-
-- OpenCV community
-- TensorFlow team
-- Raspberry Pi Foundation
-- Computer vision and autonomous driving research community
-
-## 📞 Support
-
-For issues and questions:
-1. Check the Troubleshooting section
-2. Review configuration settings
-3. Test components individually
-4. Check hardware connections
-
-## 🎓 Educational Use
-
-This project is designed for:
-- Learning computer vision
-- Understanding autonomous driving concepts
-- Practicing machine learning
-- Raspberry Pi projects
-- Robotics education
-
----
-
-**Happy Autonomous Driving! 🚗💨**
-
-*Remember: Safety first, always test in controlled environments!*
 
