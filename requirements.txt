@@ -1,0 +1,16 @@
+# Core dependencies
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# Machine Learning (optional, for neural network approach)
+tensorflow>=2.8.0
+scikit-learn>=0.24.0
+matplotlib>=3.3.0
+
+# Raspberry Pi GPIO (only needed on Raspberry Pi)
+# Uncomment the following line when running on Raspberry Pi:
+# RPi.GPIO>=0.7.0
+
+# Additional utilities
+pillow>=8.0.0
+
